@@ -20,7 +20,7 @@
     "babel-core": "^5.8.25",
     "bootstrap-sass": "^3.3.5",
     "gulp": "^3.9.0",
-    "gulp-uncss": "^1.0.4",
-    "laravel-elixir": "^3.4.1"
+    "laravel-elixir": "^3.4.1",
+    "laravel-elixir-uncss": "^2.0.0"
   }
 }

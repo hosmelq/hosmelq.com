@@ -1,5 +1,5 @@
 import elixir, { config } from 'laravel-elixir';
-import './elixir-extensions';
+import 'laravel-elixir-uncss';
 
 /*
  |--------------------------------------------------------------------------
@@ -15,7 +15,7 @@ import './elixir-extensions';
 elixir(mix => {
     mix.sass('main.sass');
 
-    mix.uncss('main.css', null, 'css', {
+    mix.uncss('main.css', {
         html: ['index.html']
-    });
+    }, null, 'css');
 });
