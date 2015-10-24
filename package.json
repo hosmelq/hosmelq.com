@@ -1,0 +1,26 @@
+{
+  "name": "hosmelq.com",
+  "version": "1.0.0",
+  "description": "Super minimalist personal website",
+  "scripts": {
+    "build": "gulp --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hosmelq/hosmelq.com.git"
+  },
+  "author": "Hosmel Quintana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hosmelq/hosmelq.com/issues"
+  },
+  "homepage": "https://github.com/hosmelq/hosmelq.com#readme",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-core": "^5.8.25",
+    "bootstrap-sass": "^3.3.5",
+    "gulp": "^3.9.0",
+    "gulp-uncss": "^1.0.4",
+    "laravel-elixir": "^3.4.1"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "assetsPath": "assets",
+  "css": {
+    "autoprefix": {
+      "options": {
+        "browsers": ["last 5 versions"]
+      }
+    },
+    "uncss": {
+      "pluginOptions": {}
+    }
+  },
+  "publicPath": "./",
+  "sourcemaps": false
+}

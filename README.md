@@ -1,2 +1,1 @@
-# hosmelq.com
-Personal Web Site
+### Super minimalist personal website
