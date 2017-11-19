@@ -1,0 +1,41 @@
+{
+  "name": "hosmelq",
+  "profile": "hosmelq",
+  "type": "static",
+  "dns": {
+    "hosmelq.com": [
+      {
+        "name": "hosmelq.com",
+        "type": "MX",
+        "value": [
+          "1 ASPMX.L.GOOGLE.COM",
+          "5 ALT1.ASPMX.L.GOOGLE.COM",
+          "5 ALT2.ASPMX.L.GOOGLE.COM",
+          "10 ALT3.ASPMX.L.GOOGLE.COM",
+          "10 ALT4.ASPMX.L.GOOGLE.COM"
+        ]
+      },
+      {
+        "name": "hosmelq.com",
+        "type": "TXT",
+        "value": ["\"google-site-verification=qaImKCpS4FnGShTolgKEqBPkqZ8lOglF-2VXvA_EO1k\""]
+      }
+    ]
+  },
+  "inject": {
+    "head": [
+      {
+        "type": "inline style",
+        "file": "./css/main.css"
+      }
+    ]
+  },
+  "lambda": {
+    "memory": 128
+  },
+  "stages": {
+    "production": {
+      "domain": "hosmelq.com"
+    }
+  }
+}
