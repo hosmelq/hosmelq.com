@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+@import '@heroui/styles';
+
+@plugin 'tailwindcss-react-aria-components';
+
+@source '../views';
+
+@theme {
+  --font-instrument: 'Instrument Serif', serif;
+  --font-sans: 'Inter', sans-serif;
+}
+
+.stripe-divider {
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 3px,
+    currentColor 3px,
+    currentColor 4px
+  );
+}

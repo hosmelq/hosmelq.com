@@ -1,0 +1,22 @@
+{
+    "agents": [
+        "codex"
+    ],
+    "cloud": false,
+    "guidelines": true,
+    "mcp": true,
+    "nightwatch": false,
+    "packages": [
+        "fruitcake/laravel-debugbar"
+    ],
+    "sail": false,
+    "skills": [
+        "laravel-best-practices",
+        "octane-development",
+        "wayfinder-development",
+        "pest-testing",
+        "inertia-react-development",
+        "tailwindcss-development",
+        "debug-using-debugbar"
+    ]
+}
